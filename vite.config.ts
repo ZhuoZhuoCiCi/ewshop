@@ -8,6 +8,7 @@ function pathResolve(dir:string){
     // 获取绝对定位的方法
     return resolve(process.cwd(), '.', dir);
 }
+console.log(pathResolve('src'))
 export default defineConfig({
   plugins: [
       vue(),
@@ -24,4 +25,8 @@ export default defineConfig({
       }
       ]
     },
+    server:{
+      host:'localhost',
+        port:8000
+    }
 })
