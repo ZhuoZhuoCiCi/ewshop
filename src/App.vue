@@ -1,20 +1,12 @@
 
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <div>
-    <NButton>123123</NButton>
-  </div>
+  <router-view></router-view>
+  <router-link to="/">Go to Home</router-link>
+  <router-link to="/login">Go to Login</router-link>
 </template>
 <script setup lang="ts">
-import {NButton}from 'naive-ui'
+// import {NButton}from 'naive-ui'
 </script>
 <style scoped>
 .logo {
