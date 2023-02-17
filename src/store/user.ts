@@ -58,7 +58,7 @@ export const useUserStore = defineStore({
                     this.setToken(response.access_token);
                 }
             } catch (error) {
-                console.log(error)
+                // console.log(error)
             }
         },
         async getUser(){
