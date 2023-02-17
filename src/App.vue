@@ -6,7 +6,7 @@
   <router-link to="/login">Go to Login</router-link>
 </template>
 <script setup lang="ts">
-// import {NButton}from 'naive-ui'
+
 </script>
 <style scoped>
 .logo {
